@@ -21,6 +21,14 @@
 - python -m module – Run a Python module as a script.
 - python -i script.py – Run a script and enter interactive mode afterward.
 
+### Interactive (REPL) Mode
+- Simply type `python` (or `python3`) with no arguments to start the interactive interpreter.
+- You’ll see prompts like `>>>` for a new statement and `...` for continued lines.
+- Enter Python code line‑by‑line; results are shown immediately, making it ideal for experimentation.
+- Use `help()` to get built‑in documentation or `dir()` to inspect objects.
+- Exit by typing `exit()`, `quit()`, or pressing `Ctrl‑D` (Unix) / `Ctrl‑Z` then `Enter` (Windows).
+- The `-i` flag lets you run a script and then drop into the REPL with its namespace already loaded.
+
 
 ### Source Code Encoding
     - Python source files default to UTF-8 encoding.
